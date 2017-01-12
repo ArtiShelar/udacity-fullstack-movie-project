@@ -4,7 +4,7 @@ Fresh Tomatoes creates a simple website of movie trailers from data received fro
 
 A list of 15 movies has been retrieved from TMDb along with the images / posters and videos associated with it. A python script then creates a static HTML page displaying these movies. Clicking on the movie poster will play the official trailer of the movie.
 
-Currently, data once retrieved it is populated into the static webpage. However, rebuilding the python script will retrieve only those movies which are playing in the theatres at that time.
+Currently, data once retrieved it is populated into a static webpage called `fresh_tomatoes.html`. However, rebuilding the python script will retrieve only those movies which are playing in the theatres at that time.
 
 ## Local Setup
 
@@ -33,4 +33,4 @@ Once the API key is obtained, add it to the `entertainment_center.py` file. If t
 
 `tmdb.API_KEY = '289e548XXXXXXXXXXXXXXXXXXXXXXXXX'`
 
-Save and run the file. The static HTML file generated will be called `fresh_tomatoes.html` and it will open automatically in your default browser.
+Save and run this python file. The static HTML file generated will be called `fresh_tomatoes.html` and it will open automatically in your default browser.
